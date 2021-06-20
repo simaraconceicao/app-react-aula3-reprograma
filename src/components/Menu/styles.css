@@ -18,7 +18,7 @@
 @media (max-width:768px){
     .menu {
         display: flex;
-        justify-content: flex-start;
-        align-items:flex-start;
+        justify-content: space-around;
+        align-items:center;
     }
 }
