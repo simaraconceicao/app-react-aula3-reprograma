@@ -30,14 +30,11 @@ const Search = () => {
     return(
         <div>
             <Menu />
-            <div className= "busca">
-                <input 
-                    type="text" 
-                    placeholder="Digite um repo" 
-                    onChange={e=>{setBusca(e.target.value)}}
-                />
-            </div>
-            
+            <input 
+                type="text" 
+                placeholder="Digite um repo" 
+                onChange={e=>{setBusca(e.target.value)}}
+            />
             <ul className="repos" >{filtroRepos.map(repo=>{
                 return <li className="repo" key={repo.id}>{repo.name}</li>
             })}</ul>
