@@ -1,12 +1,11 @@
 .menu {
-    margin: 2rem;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .menu li {
-    margin-left: 4rem;
     list-style: none;
 }
 
@@ -17,6 +16,7 @@
 
 @media (max-width:768px){
     .menu {
+        width: 100%;
         display: flex;
         justify-content: space-around;
         align-items:center;
