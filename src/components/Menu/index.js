@@ -10,9 +10,9 @@ const Menu = () => {
                 <li>
                     <Link className="link" to="/">Home</Link>
                 </li>    
-                {/* <li>
-                    <Link className="link" to="/gif">Gif</Link>
-                </li>    */}
+                <li>
+                    <Link className="link" to="/search">Search</Link>
+                </li>   
                 <li>
                     <Link className="link" to="/simpsons">Simpsons</Link>
                 </li>               

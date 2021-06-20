@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
 
 import Home from '../pages/Home'
-// import Gif from '../pages/Gif'
+import Search from '../pages/Search'
 import Simpsons from '../pages/Simpsons'
 
 function Routes() {
@@ -10,7 +10,7 @@ function Routes() {
         <BrowserRouter>
         <Switch>
             <Route exact path='/'  component={Home}/>
-            {/* <Route path='/gif' component={Gif}/> */}
+            <Route path='/search' component={Search}/>
             <Route path='/simpsons' component={Simpsons}/>
         </Switch>
         </BrowserRouter>
